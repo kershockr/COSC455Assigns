@@ -1,0 +1,14 @@
+<S>  ::= <NP><VP><NP><PREPP><T> | <S><CONJ><S>
+<NP> ::= <A><ADJP><N>
+<ADV> ::= quickly | silently | slowly | (empty)
+<VP> ::= <ADV><V>
+<V>  ::= loves | hates | eats | chases | stalks
+<A>  ::= a | the
+<ADJP> ::= <ADJ><ADJ_TAIL> | (empty)
+<ADJ> ::= furry | fast | lazy | sneaky | tall
+<ADJ_TAIL> ::= , <ADJ><ADJ_TAIL> | (empty) 
+<N>  ::= dog | cat | rat | house | tree
+<CONJ> ::= and | or
+<PREPP> ::= <PREP><NP> | (empty)
+<PREP> ::= around | up | over
+<T> ::= . | ! | (empty)
